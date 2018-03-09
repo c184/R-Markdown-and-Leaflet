@@ -1,0 +1,9 @@
+Colosseum, 41.890169, 12.492269
+St. Peter's Basilica, 41.902222, 12.453333
+Vatican Museums, 41.906389, 12.454444
+Florence Cathedral, 43.773083, 11.256222
+Doge's Palace, 45.4339, 12.34
+St Mark's Basilica, 45.434444, 12.339722
+Siena Cathedral, 43.3177, 11.329
+Ponte Vecchio, 43.767989, 11.253192
+Leaning Tower of Pisa, 43.723056, 10.396389

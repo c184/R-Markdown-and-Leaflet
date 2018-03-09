@@ -1,0 +1,19 @@
+---
+title: "Italian monuments"
+author: "Thomas Lucon"
+date: "09 marzo 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## March 9th, 2018
+```{r, include=TRUE}
+library(leaflet)
+monuments <- read.csv("monuments.txt", header = FALSE)
+names(monuments) <- c("name", "lat","lng")
+mon_Icon <- makeIcon("mon_Icon.png", iconWidth = 31*215/230, iconHeight = 31)
+monuments %>% leaflet() %>% addTiles() %>% addMarkers(lat = monuments$lat, lng = monuments$lng, icon = mon_Icon, popup = monuments$name, clusterOptions = markerClusterOptions())
+```
